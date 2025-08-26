@@ -1,0 +1,15 @@
+server:
+  port: 8006
+
+spring:
+  application:
+    name: audit-search-service
+  elasticsearch:
+    uris: http://localhost:9200
+
+elastic:
+  index:
+    audit-methods:
+      name: audit-methods
+    audit-http:
+      name: audit-http
